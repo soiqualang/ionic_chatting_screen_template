@@ -5,16 +5,25 @@ Chat themes for Ionic projects
 This is an ionic project for Chat application. You need to have Cordova and Ionic 4.0.0 installed on the 
 system to run it successfully
 
+Clone from https://github.com/enappd/chatterDemo.github.io
+
+> Fix node-sass
+
+```bash
+npm uninstall node-sass
+npm install sass
+```
+
 ## Using this project
 
 You must have cordova installed prior to this.
 
-```
+```bash
     $ npm install -g cordova
 ```
 
 
-```
+```bash
     $ npm install -g ionic
 ```
 
@@ -27,24 +36,24 @@ NOTE: This app is built and tested on 4.0.0.
 
 * Install npm dependecies
 
-```
+```bash
     $ npm install
 ```
 
 * Install Resources
 
-```
+```bash
     $ ionic cordova resources
 ```
 
 * Add Platform (whichever required)
 
-```
+```bash
     $ ionic cordova platform add android
     $ ionic cordova platform add ios
 ```
 in few cases, you might need to install the latest platform
-```
+```bash
     $ ionic cordova platform add android@latest
     $ ionic cordova platform add ios@latest
 ```
@@ -52,7 +61,7 @@ in few cases, you might need to install the latest platform
 
 * Install Plugins (whichever required)
 
-```
+```bash
     $ ionic cordova plugin add YOUR_PLUGIN_NAME
 ```
 
