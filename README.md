@@ -14,6 +14,9 @@ npm uninstall node-sass
 npm install sass
 ```
 
+![image](https://user-images.githubusercontent.com/2648020/210742211-862a8ba4-a2de-4c1b-a408-6b390e93429c.png)
+
+
 ## Using this project
 
 You must have cordova installed prior to this.
